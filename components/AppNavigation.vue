@@ -14,8 +14,8 @@
           </svg>
         </nuxt-link>
         <ul>
-          <nuxt-link to="/women"><li>Women's</li></nuxt-link>
-          <nuxt-link to="/men"><li>Men's</li></nuxt-link>
+          <nuxt-link to="/women"><li>Personal</li></nuxt-link>
+          <nuxt-link to="/men"><li>Business</li></nuxt-link>
           <nuxt-link to="/sale"><li>Sale</li></nuxt-link>
         </ul>
         <nuxt-link to="/cart">
