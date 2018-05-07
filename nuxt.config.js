@@ -23,5 +23,28 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#3e64ea' }
+  loading: { color: '#3e64ea' },
+  generate: {
+    dir: 'dist',
+    minify: {
+      collapseBooleanAttributes: false,
+      collapseWhitespace: false,
+      decodeEntities: false,
+      minifyCSS: false,
+      minifyJS: false,
+      processConditionalComments: false,
+      removeAttributeQuotes: false,
+      removeComments: false,
+      removeEmptyAttributes: false,
+      removeOptionalTags: false,
+      removeRedundantAttributes: false,
+      removeScriptTypeAttributes: false,
+      removeStyleLinkTypeAttributes: false,
+      removeTagWhitespace: false,
+      sortAttributes: false,
+      sortClassName: false,
+      trimCustomFragments: false,
+      useShortDoctype: false
+    }
+  }
 };
